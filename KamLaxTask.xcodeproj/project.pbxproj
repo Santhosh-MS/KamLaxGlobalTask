@@ -15,6 +15,19 @@
 		78285ABC2400FB3A003212AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78285ABA2400FB3A003212AE /* LaunchScreen.storyboard */; };
 		78285AC72400FB3C003212AE /* KamLaxTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78285AC62400FB3C003212AE /* KamLaxTaskTests.swift */; };
 		78285AD22400FB3C003212AE /* KamLaxTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78285AD12400FB3C003212AE /* KamLaxTaskUITests.swift */; };
+		78DA6975240100B500260CAF /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78DA6962240100B500260CAF /* Constants.swift */; };
+		78DA6976240100B500260CAF /* ContactService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78DA6965240100B500260CAF /* ContactService.swift */; };
+		78DA6977240100B500260CAF /* NetworkConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78DA6967240100B500260CAF /* NetworkConstants.swift */; };
+		78DA6978240100B500260CAF /* URLResponseExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78DA6969240100B500260CAF /* URLResponseExtension.swift */; };
+		78DA6979240100B500260CAF /* URLSessionDataTaskExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78DA696A240100B500260CAF /* URLSessionDataTaskExtension.swift */; };
+		78DA697A240100B500260CAF /* URLSessionExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78DA696B240100B500260CAF /* URLSessionExtension.swift */; };
+		78DA697B240100B500260CAF /* HttpClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78DA696D240100B500260CAF /* HttpClient.swift */; };
+		78DA697C240100B500260CAF /* HttpMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78DA696E240100B500260CAF /* HttpMethod.swift */; };
+		78DA697D240100B500260CAF /* NTError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78DA696F240100B500260CAF /* NTError.swift */; };
+		78DA697E240100B500260CAF /* ServerError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78DA6970240100B500260CAF /* ServerError.swift */; };
+		78DA697F240100B500260CAF /* RequestProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78DA6972240100B500260CAF /* RequestProtocol.swift */; };
+		78DA6980240100B500260CAF /* URLSessionDataTaskProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78DA6973240100B500260CAF /* URLSessionDataTaskProtocol.swift */; };
+		78DA6981240100B500260CAF /* URLSessionProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78DA6974240100B500260CAF /* URLSessionProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +62,19 @@
 		78285ACD2400FB3C003212AE /* KamLaxTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KamLaxTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		78285AD12400FB3C003212AE /* KamLaxTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KamLaxTaskUITests.swift; sourceTree = "<group>"; };
 		78285AD32400FB3C003212AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78DA6962240100B500260CAF /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		78DA6965240100B500260CAF /* ContactService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactService.swift; sourceTree = "<group>"; };
+		78DA6967240100B500260CAF /* NetworkConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkConstants.swift; sourceTree = "<group>"; };
+		78DA6969240100B500260CAF /* URLResponseExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLResponseExtension.swift; sourceTree = "<group>"; };
+		78DA696A240100B500260CAF /* URLSessionDataTaskExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLSessionDataTaskExtension.swift; sourceTree = "<group>"; };
+		78DA696B240100B500260CAF /* URLSessionExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLSessionExtension.swift; sourceTree = "<group>"; };
+		78DA696D240100B500260CAF /* HttpClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpClient.swift; sourceTree = "<group>"; };
+		78DA696E240100B500260CAF /* HttpMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpMethod.swift; sourceTree = "<group>"; };
+		78DA696F240100B500260CAF /* NTError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NTError.swift; sourceTree = "<group>"; };
+		78DA6970240100B500260CAF /* ServerError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServerError.swift; sourceTree = "<group>"; };
+		78DA6972240100B500260CAF /* RequestProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestProtocol.swift; sourceTree = "<group>"; };
+		78DA6973240100B500260CAF /* URLSessionDataTaskProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLSessionDataTaskProtocol.swift; sourceTree = "<group>"; };
+		78DA6974240100B500260CAF /* URLSessionProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLSessionProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,8 +125,12 @@
 		78285AAE2400FB0C003212AE /* KamLaxTask */ = {
 			isa = PBXGroup;
 			children = (
-				78285AAF2400FB0C003212AE /* AppDelegate.swift */,
-				78285AB12400FB0C003212AE /* SceneDelegate.swift */,
+				78DA6963240100B500260CAF /* NetworkLayer */,
+				78DA6961240100B500260CAF /* UtilityLayer */,
+				78DA69602400FFAD00260CAF /* CommonLayer */,
+				78DA69572400FE2B00260CAF /* MainDelegate */,
+				78DA695C2400FEE600260CAF /* ViewModel */,
+				78DA69582400FE4C00260CAF /* Controller */,
 				78285AB32400FB0C003212AE /* ViewController.swift */,
 				78285AB52400FB0C003212AE /* Main.storyboard */,
 				78285AB82400FB3A003212AE /* Assets.xcassets */,
@@ -126,6 +156,151 @@
 				78285AD32400FB3C003212AE /* Info.plist */,
 			);
 			path = KamLaxTaskUITests;
+			sourceTree = "<group>";
+		};
+		78DA69572400FE2B00260CAF /* MainDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				78285AAF2400FB0C003212AE /* AppDelegate.swift */,
+				78285AB12400FB0C003212AE /* SceneDelegate.swift */,
+			);
+			path = MainDelegate;
+			sourceTree = "<group>";
+		};
+		78DA69582400FE4C00260CAF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				78DA695B2400FECC00260CAF /* ArticleSearchCcontroller */,
+				78DA695A2400FE8B00260CAF /* DetailArticleListController */,
+				78DA69592400FE5800260CAF /* RootController */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		78DA69592400FE5800260CAF /* RootController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = RootController;
+			sourceTree = "<group>";
+		};
+		78DA695A2400FE8B00260CAF /* DetailArticleListController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DetailArticleListController;
+			sourceTree = "<group>";
+		};
+		78DA695B2400FECC00260CAF /* ArticleSearchCcontroller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ArticleSearchCcontroller;
+			sourceTree = "<group>";
+		};
+		78DA695C2400FEE600260CAF /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				78DA695F2400FF3100260CAF /* ArticleViewModel */,
+				78DA695E2400FF1500260CAF /* DetailViewModel */,
+				78DA695D2400FF0300260CAF /* RootViewModel */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		78DA695D2400FF0300260CAF /* RootViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = RootViewModel;
+			sourceTree = "<group>";
+		};
+		78DA695E2400FF1500260CAF /* DetailViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DetailViewModel;
+			sourceTree = "<group>";
+		};
+		78DA695F2400FF3100260CAF /* ArticleViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ArticleViewModel;
+			sourceTree = "<group>";
+		};
+		78DA69602400FFAD00260CAF /* CommonLayer */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CommonLayer;
+			sourceTree = "<group>";
+		};
+		78DA6961240100B500260CAF /* UtilityLayer */ = {
+			isa = PBXGroup;
+			children = (
+				78DA6962240100B500260CAF /* Constants.swift */,
+			);
+			path = UtilityLayer;
+			sourceTree = "<group>";
+		};
+		78DA6963240100B500260CAF /* NetworkLayer */ = {
+			isa = PBXGroup;
+			children = (
+				78DA6964240100B500260CAF /* AppService */,
+				78DA6966240100B500260CAF /* Constant */,
+				78DA6968240100B500260CAF /* Extension */,
+				78DA696C240100B500260CAF /* HTTPClient */,
+				78DA6971240100B500260CAF /* protocols */,
+			);
+			path = NetworkLayer;
+			sourceTree = "<group>";
+		};
+		78DA6964240100B500260CAF /* AppService */ = {
+			isa = PBXGroup;
+			children = (
+				78DA6965240100B500260CAF /* ContactService.swift */,
+			);
+			path = AppService;
+			sourceTree = "<group>";
+		};
+		78DA6966240100B500260CAF /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				78DA6967240100B500260CAF /* NetworkConstants.swift */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		78DA6968240100B500260CAF /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				78DA6969240100B500260CAF /* URLResponseExtension.swift */,
+				78DA696A240100B500260CAF /* URLSessionDataTaskExtension.swift */,
+				78DA696B240100B500260CAF /* URLSessionExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		78DA696C240100B500260CAF /* HTTPClient */ = {
+			isa = PBXGroup;
+			children = (
+				78DA696D240100B500260CAF /* HttpClient.swift */,
+				78DA696E240100B500260CAF /* HttpMethod.swift */,
+				78DA696F240100B500260CAF /* NTError.swift */,
+				78DA6970240100B500260CAF /* ServerError.swift */,
+			);
+			path = HTTPClient;
+			sourceTree = "<group>";
+		};
+		78DA6971240100B500260CAF /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				78DA6972240100B500260CAF /* RequestProtocol.swift */,
+				78DA6973240100B500260CAF /* URLSessionDataTaskProtocol.swift */,
+				78DA6974240100B500260CAF /* URLSessionProtocol.swift */,
+			);
+			path = protocols;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,9 +434,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78DA697B240100B500260CAF /* HttpClient.swift in Sources */,
+				78DA6977240100B500260CAF /* NetworkConstants.swift in Sources */,
 				78285AB42400FB0C003212AE /* ViewController.swift in Sources */,
 				78285AB02400FB0C003212AE /* AppDelegate.swift in Sources */,
+				78DA697C240100B500260CAF /* HttpMethod.swift in Sources */,
+				78DA6978240100B500260CAF /* URLResponseExtension.swift in Sources */,
 				78285AB22400FB0C003212AE /* SceneDelegate.swift in Sources */,
+				78DA697A240100B500260CAF /* URLSessionExtension.swift in Sources */,
+				78DA697D240100B500260CAF /* NTError.swift in Sources */,
+				78DA697E240100B500260CAF /* ServerError.swift in Sources */,
+				78DA6976240100B500260CAF /* ContactService.swift in Sources */,
+				78DA6975240100B500260CAF /* Constants.swift in Sources */,
+				78DA6981240100B500260CAF /* URLSessionProtocol.swift in Sources */,
+				78DA6979240100B500260CAF /* URLSessionDataTaskExtension.swift in Sources */,
+				78DA697F240100B500260CAF /* RequestProtocol.swift in Sources */,
+				78DA6980240100B500260CAF /* URLSessionDataTaskProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
