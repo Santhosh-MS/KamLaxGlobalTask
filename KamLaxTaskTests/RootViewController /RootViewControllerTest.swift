@@ -1,19 +1,18 @@
 //
-//  KamLaxTaskTests.swift
+//  RootViewControllerTest.swift
 //  KamLaxTaskTests
 //
-//  Created by Ducont on 22/02/20.
+//  Created by Ducont on 23/02/20.
 //  Copyright © 2020 Ducont. All rights reserved.
 //
 
 import XCTest
+import UIKit
 @testable import KamLaxTask
-
-class KamLaxTaskTests: XCTestCase {
-    
+class RootViewControllerTest: XCTestCase {
+    var RootViewCtrl : ViewControllerRoot!
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.
-    
     }
 
     override func tearDown() {
@@ -24,15 +23,14 @@ class KamLaxTaskTests: XCTestCase {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
-
+    func test_ViewTtitleTest(){
+        XCTAssert(RootViewCtrl.navigationItem.title == "NYT","Contact Not Yet Found")
+    }
     func testPerformanceExample() {
         // This is an example of a performance test case.
         self.measure {
             // Put the code you want to measure the time of here.
         }
     }
-    
-   
+
 }
-
-
